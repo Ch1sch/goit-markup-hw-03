@@ -220,7 +220,6 @@ width: 232px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 8px;
 }
 
 .team-title{
@@ -245,6 +244,7 @@ gap: 8px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-list-text{
