@@ -23,6 +23,14 @@ p, h1, h2, h3, h4, h5, h6{
     margin: 0px;
 }
 
+img{
+    display: block;
+}
+
+header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .container{
     width: 1128px;
     padding: 0px 15px;
@@ -89,7 +97,7 @@ p, h1, h2, h3, h4, h5, h6{
     gap: 40px;
 }
 
-.add-item{
+.address-item{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -109,18 +117,12 @@ color: #404bbf;
     flex-shrink: 0;
 }
 
-.hero-inner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .hero-title{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-bottom: 48px;
+    margin: 0 auto 48px auto;
     max-width: 496px;
     text-align: center;
 }
@@ -134,7 +136,12 @@ color: #404bbf;
     letter-spacing: 0.04em;
     color: #ffffff;
     padding: 16px 32px;
+    margin: 0 auto;
     border-radius: 4px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .button-primary:hover, .button-primary:focus{
@@ -248,7 +255,7 @@ width: 264px;
     flex-direction: column;
 }
 
-.port-section-title{
+.portfolio-title{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -261,8 +268,9 @@ width: 264px;
 .port-list{
     display: flex;
     gap: 24px;
-    row-gap: 48px;
     flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
 .port-title{
@@ -296,6 +304,8 @@ width: 264px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .studio-footer-logo{
@@ -306,6 +316,6 @@ width: 264px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
-    margin-top: 17.5px;
     max-width: 264px;
+    padding-bottom: 100px;
 }
